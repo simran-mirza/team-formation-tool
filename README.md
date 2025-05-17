@@ -52,8 +52,7 @@
 ## Live Demo
 
 You can view a live demo of the project hosted on GitHub Pages here:
-
-[Add your GitHub Pages link here]
+https://simran-mirza.github.io/team-formation-tool/
 
 ---
 
