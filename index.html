@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Team Formation Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="site-main">
+        <h1>Team Formation Tool</h1>
+        <input type="file" id="csvFile" accept=".csv" />
+
+        <button id="generateTeams">Generate Teams</button>
+        <button id="downloadCSV">Download Teams as CSV</button>
+
+        <div id="teamsContainer"></div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
